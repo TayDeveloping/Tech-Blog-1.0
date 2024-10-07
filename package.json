@@ -8,5 +8,16 @@
     "express-session": "^1.18.0",
     "pg": "^8.13.0",
     "sequelize": "^6.37.3"
-  }
+  },
+  "name": "tech-blog-1.0",
+  "version": "1.0.0",
+  "description": "This CMS-style tech blog allows developers to publish their own blog posts, comment on others' posts, and manage their content. The project is built with Node.js, Express.js, Sequelize, Handlebars.js, and PostgreSQL, following the MVC (Model-View-Controller) paradigm. Authentication is handled using `express-session` and `bcrypt`. The blog is deployed using Render.",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
 }
